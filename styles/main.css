@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+}
+
+.clock{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.clock-face{
+  position: relative;
+  margin-top: 175px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  padding: 15px;
+}
+
+.hand{
+  position: absolute;
+  width: 5px;
+  height: 47px;
+  background-color: #000;
+  margin-left: 35%;
+  transform-origin: bottom;
+  border-radius: 999px;
+}
